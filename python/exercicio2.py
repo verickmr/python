@@ -29,7 +29,7 @@ print("Custou:R${:.2f}".format(custo))
 # 4-questão
 nota1 =  float(input("Qual a nota:"))
 nota2 =  float(input("Qual a nota:"))
-media = (nota1 + nota2)
+media = (nota1 + nota2)/2
 
 if media >=6:
     print("Aprovado")
